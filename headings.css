@@ -1,0 +1,60 @@
+.markdown-source-view.mod-cm6 .cm-line {
+  line-height: 1.7;
+}
+
+/* 本文の文字を細くする */
+.markdown-source-view.mod-cm6,
+.markdown-preview-view {
+  font-weight: 300;
+}
+
+.note-dates {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
+}
+
+.note-created,
+.note-updated {
+  font-size: 0.9em;
+  display: block;
+  text-align: right;
+}
+
+/* H2 */
+.markdown-source-view.mod-cm6 .HyperMD-header-2,
+.markdown-preview-view h2 {
+  padding: 10px 16px !important;
+  margin: 1.8em 0 0.8em;
+  color: #b5bac4 !important;
+  background: #23272c;
+  border-left: 10px solid #907513;
+  border-radius: 8px;
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+/* H3 */
+.markdown-source-view.mod-cm6 .HyperMD-header-3,
+.markdown-preview-view h3 {
+  color: #907513 !important;
+  font-size: 1.2em;
+  font-weight: 650;
+  margin-top: 1.4em;
+  margin-bottom: 0.7em;
+}
+
+/* H4 */
+.markdown-source-view.mod-cm6 .HyperMD-header-4,
+.markdown-preview-view h4 {
+  color: #ffffff;
+  font-size: 1.05em;
+  font-weight: 600;
+  margin-bottom: 0.7em;
+}
+
+/* Markdownリストの記号の色 */
+.theme-dark {
+  --list-marker-color: #7e5e07;
+}
